@@ -89,8 +89,15 @@ namespace WatermarkToVideoCreator
                 {
                     FileSystemHelper.CleanDir(FileSystemHelper.TemporaryDir);
 
+                    string watermarkText = await AlertsHelper.ShowAlertAskingText("Enter watermark text");
+                    if (watermarkText == null) 
+                    {
+                        SetStatus("Cancelled");
+                        return;
+                    }
+
                     // Create watermark image from UIView
-                    var watermarkView = WatemarkView.Create();
+                    var watermarkView = WatemarkView.Create(watermarkText);
                     watermarkView.Frame = new CGRect(0, 0, 1280, 768);
                     var watermarkPath = Path.Combine(FileSystemHelper.TemporaryDir, "watermark.png");
                     watermarkView.ToImageFile(watermarkPath);

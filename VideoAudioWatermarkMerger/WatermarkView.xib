@@ -16,13 +16,9 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Lion Drinking Water" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JnU-Fc-FPl">
-                    <rect key="frame" x="20" y="230" width="224" height="45"/>
+                    <rect key="frame" x="20" y="227" width="363.5" height="48"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="224" id="95y-J0-uHk"/>
-                        <constraint firstAttribute="height" constant="45" id="W6c-WZ-fif"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
                     <color key="textColor" red="0.72156862749999995" green="0.62745098040000002" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -45,6 +41,9 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblTitle" destination="JnU-Fc-FPl" id="te7-Mt-IVp"/>
+            </connections>
             <point key="canvasLocation" x="176.5" y="-142.5"/>
         </view>
     </objects>

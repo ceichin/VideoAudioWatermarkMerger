@@ -119,6 +119,7 @@
     <Compile Include="WatemarkView.designer.cs">
       <DependentUpon>WatemarkView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\AlertsHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\dogSanta.jpg" />
