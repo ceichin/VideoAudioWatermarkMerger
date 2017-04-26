@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatermarkToVideoCreator", "WatermarkToVideoCreator\WatermarkToVideoCreator.csproj", "{EE84117D-30FA-427F-A90D-AC74615F8FE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoAudioWatermarkMerger", "VideoAudioWatermarkMerger\VideoAudioWatermarkMerger.csproj", "{EE84117D-30FA-427F-A90D-AC74615F8FE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
